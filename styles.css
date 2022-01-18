@@ -1,0 +1,465 @@
+body {
+  font-family: "Poppins", Sans-serif;
+  background-color: rgb(158, 147, 147);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: 400;
+}
+p {
+  font-size: 1.2em;
+}
+.background {
+  margin: -20px -10px -20px -10px;
+  padding: 0;
+  z-index: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(back3.png);
+  height: 103vh;
+}
+.image {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.sunodos {
+  padding-top: 35%;
+  color: #c3fffb;
+  font-family: "Poppins", Sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+.under_sunodos {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: 0.1px;
+}
+.testimonials {
+  margin-top: -1.5%;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+.grey {
+  color: #515151;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+}
+.blue {
+  color: #0100fc;
+  font-size: 40px;
+  line-height: 60px;
+}
+.white {
+  color: white;
+  height: 100%;
+}
+.black {
+  color: black;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: "Poppins", Sans-serif;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 12px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: rgb(153, 239, 245);
+}
+
+#nav a.current {
+  color: rgb(153, 239, 245);
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.row {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: -2%;
+  margin: 1.5% -10px 0px -10px;
+}
+
+.row_testimonial {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: -5% -10px -5% -10px;
+}
+.row_william {
+  padding-bottom: 0px;
+  height: 715px;
+  margin: -10px -10px 0px -10px;
+}
+.row_3a {
+  padding-bottom: 0px;
+  height: 715px;
+  margin: 0px -10px 0px -10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row_testimonial:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.background:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
+.row_william:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row_3a:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
+.william-2 {
+  position: relative;
+  bottom: 75px;
+  width: 570px;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle,
+  .column.third,
+  .column.third2 {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 640px) {
+  .column.side {
+    width: 7%;
+  }
+  .column.middle {
+    width: 42%;
+  }
+  .column.third {
+    width: 33%;
+  }
+  .column.third2 {
+    width: 42%;
+  }
+  .column.sunodos {
+    width: 70%;
+  }
+  .column.after_sunodos {
+    width: 10%;
+  }
+  .column.before_testimonials {
+    width: 24.5%;
+  }
+  .column.under_testimonials {
+    width: 16%;
+  }
+  .column.under_testimonials2 {
+    width: 60%;
+  }
+  .column.under_testimonials3 {
+    width: 27%;
+  }
+  .column.william-1 {
+    width: 3%;
+  }
+  .column.william-2 {
+    width: 47%;
+  }
+  .column.william-3 {
+    width: 40%;
+  }
+  .column.william-4 {
+    width: 5%;
+  }
+  .column.3a-1 {
+    width: 20%;
+  }
+  .column.3a-2 {
+    width: 60%;
+  }
+  .column.3a-3 {
+    width: 20%;
+  }
+  .sunodos {
+    padding-top: 10%;
+    color: #c3fffb;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  .icons {
+    width: 150%;
+    margin-left: -21%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1366px) {
+  .column.side {
+    width: 20%;
+  }
+  .column.middle {
+    width: 30%;
+  }
+  .column.third {
+    width: 33%;
+  }
+  .column.third2 {
+    width: 42%;
+  }
+  .column.sunodos {
+    width: 50%;
+  }
+  .column.after_sunodos {
+    width: 10%;
+  }
+  .column.before_testimonials {
+    width: 33%;
+  }
+  .column.under_testimonials {
+    width: 22%;
+  }
+  .column.under_testimonials {
+    width: 22%;
+  }
+  .column.under_testimonials2 {
+    width: 53%;
+  }
+  .column.under_testimonials3 {
+    width: 27%;
+  }
+  .column.william {
+    width: 40%;
+  }
+  .column.last_william {
+    width: 10%;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 33%;
+  width: auto;
+  position: sticky;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
